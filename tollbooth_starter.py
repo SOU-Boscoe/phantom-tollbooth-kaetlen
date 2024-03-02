@@ -19,6 +19,6 @@ def main():
     words=sorted(words.items(), key=lambda x: x[1], reverse=True)
     top_words = words[:50]
     print(top_words)
-    print(book)
+    #print(book)
 if __name__ == '__main__':
     main()
